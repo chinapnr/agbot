@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[http://test.chinapnr.com/muser/publicRequests?Version=10&CmdId=UserRegister&MerCustId=6000060000848098&BgRetUrl=http://192.168.0.200:8008/hftest/common/commonResult.jsp&RetUrl=&UsrId=152169653117303&UsrName=tc_name1521696&IdType=00&IdNo=321323152169653105&UsrMp=18152169653&UsrEmail=10086@139.com&MerPriv=&CharSet=GBK&PageType=&CardId=&BankId=&ProvId=&AreaId=&SmsCode=&SmsSeq=&ChkValue=123]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=captcha]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=captcha]]></target>
+	<value><![CDATA[7skw]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//a[@id='sms-submit-btn']/span]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>assertAlertNotPresent</command>
+	<target><![CDATA[短信验证码已发送至您的手机，请注意查收！]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=smsCode]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=smsCode]]></target>
+	<value><![CDATA[666666]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//input[@value=''])[7]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=(//input[@value=''])[7]]]></target>
+	<value><![CDATA[123456pnr]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//dd[2]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//input[@value=''])[8]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=(//input[@value=''])[8]]]></target>
+	<value><![CDATA[123456pnr]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=Checkbox-1]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[2]/a/span]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//dd/div[2]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=professionalId]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>select</command>
+	<target><![CDATA[name=professionalId]]></target>
+	<value><![CDATA[label=国家机关,党群组织,企事业单位的负责人]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//option[@value='02']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//i]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//a[21]/span]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[3]/a[9]/span]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=detailAddress]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=detailAddress]]></target>
+	<value><![CDATA[tejjjss中欧啊]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=certIdExpireDate]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectFrame</command>
+	<target><![CDATA[index=0]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[@id='dpTitle']/div[6]/a]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[@id='dpTitle']/div[6]/a]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>doubleClick</command>
+	<target><![CDATA[//div[@id='dpTitle']/div[6]/a]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[@id='dpTitle']/div[6]/a]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//td[@onclick='day_Click(2018,6,29);']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>

@@ -1,0 +1,2 @@
+call activate autogo_py36
+python agbot_worker1.py

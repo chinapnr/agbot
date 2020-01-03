@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target>$${tar_sys_url}</target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=passWord]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=passWord]]></target>
+	<value>$${passWord}</value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//a[@id='reg-submit-btn']/span]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
