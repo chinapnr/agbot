@@ -1,0 +1,51 @@
+{
+  "system": {
+    "db": {
+      "type": "sqlite",
+      "url": "development.db",
+      "connection_pool": {
+        "encoding": "utf-8",
+        "pool_size": 50,
+        "max_overflow": 0,
+        "convert_unicode": true,
+        "echo": false,
+        "pool_recycle": 60,
+        "pool_timeout": 60,
+        "isolation_level": "READ UNCOMMITTED"
+      }
+    },
+    "redis": {
+      "url": ""
+    },
+    "ext": {
+      "context_processor_excel": {
+        "enabled": false,
+        "file_name": "{task_id}_result.xlsx"
+      },
+      "context_processor_mty": {
+        "enabled": false
+      },
+      "context_processor_mail": {
+        "enabled": false,
+        "server": {
+          "host": "",
+          "port": 25,
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  },
+  "tp_app": {
+    "appium": {
+      "service": "",
+      "desired_caps": {
+        "automationName": "UiAutomator2",
+        "platformName": "Android",
+        "deviceName": "Android Emulator",
+        "platformVersion": "9"
+      }
+    },
+    "semaphore": 1
+  }
+}

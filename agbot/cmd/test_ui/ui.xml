@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target>${tar_sys_url}</target>
+	<value><![CDATA[]]></value>
+</selenese>
+	<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//input[@type='password'])[2]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
