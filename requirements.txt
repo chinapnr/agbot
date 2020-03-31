@@ -11,7 +11,7 @@ backcall==0.1.0
 bcrypt==3.1.4
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
-bleach==3.1.0
+bleach==3.1.4
 bs4==0.0.1
 celery==4.3.0
 celery_once==3.0.1
