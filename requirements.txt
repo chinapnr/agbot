@@ -32,7 +32,7 @@ docopt==0.6.2
 elasticsearch==7.0.2
 entrypoints==0.3
 et-xmlfile==1.0.1
-eventlet==0.25.0
+eventlet==0.31.0
 fishbase==1.1.14
 flake8==3.7.7
 Flask==0.12.2
